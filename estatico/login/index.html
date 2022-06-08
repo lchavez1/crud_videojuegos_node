@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+
+        html{
+            height: 100%;
+        }
+        body{
+            height: 100%;
+            background-color: #9cc3d5ff;
+        }
+        .form{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+
+        .form input{
+            margin-top: 10px;
+            border: 1px solid #0063b2ff;
+        }
+
+        .form label {
+            display: block;
+            margin: 2em;
+        }
+
+        .form input[type="text"],
+        .form input[type="password"]{
+            padding: 5px;
+        }
+
+        .form label p{
+            display: block;
+            
+        }
+
+        .form .boton{
+            align-items: center;
+            margin-top: 200px;
+            margin-left: -300px;
+            
+        }
+
+        .form form{
+            width: 100%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form">
+
+        <form method="POST" enctype="application/x-www-form-urlencoded" class="form">
+            <label>
+                <h2>Usuario:</h2>
+                <input type="text" name="usuario" id="usuario">
+            </label>
+    
+            <label>
+                <h2>Contraseña:</h2>
+                <input type="password" name="password" id="password">
+            </label>
+    
+            <div class="boton">
+                <input type="submit" value="Iniciar Sesion">
+            </div>
+            
+        </form>
+
+    </div>
+
+    
+
+</body>
+</html>

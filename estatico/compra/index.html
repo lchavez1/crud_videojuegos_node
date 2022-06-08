@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/compra/indexCompra.js"></script>
+    <script src="../js/helper.js"></script>
+    <title>Inicio</title>
+</head>
+<body>
+
+    <div id="overlay" class="overlay"></div>
+
+    <div id="alerta" class="alerta">
+        <div class="wrapper">
+            <div class="mensaje">
+                <p>Este es un mensaje de prueba</p>
+            </div>
+            <div class="botones">
+                <button class="aceptar">Aceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="confirmar" class="confirmar">
+        <div class="wrapper">
+            <div class="mensaje">
+                <p>¿Seguro que deseas eliminar esta compra?</p>
+            </div>
+            <div class="botones">
+                <button class="cancelar">No</button>
+                <button class="aceptar">Si</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="compra" class="videojuego_wrapper">
+
+        <h1 style="text-align: center;">Compras</h1>
+
+        <div class="barra_herramientas">
+            <div class="busqueda">
+                <input type="text" class="textoBuscar">
+                <button class="buscar"><span>Buscar (Videojuego)</span></button>
+            </div>
+            <div class="botones">
+                <button class="agregar">Agregar Compra</button>
+            </div>
+        </div>
+
+        <div class="tabla">
+            <!--Tabla aqui-->
+        </div>
+
+        <button class="regresar" onclick="regresarAMenu()">Regresar</button>
+
+    </div>
+
+</body>
+</html>
